@@ -10,7 +10,6 @@ jobs:
       # uses: devenpatel2/docker_workflow@v1
       - name: Checkout
       - uses: actions/checkout@v1
-
       - name: Hello world action step
         uses: ./ # Uses an action in the root directory
         id: hello
